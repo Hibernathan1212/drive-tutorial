@@ -73,7 +73,7 @@ const navigate = useRouter();
           </ul>
         </div>
         <UploadButton
-          endpoint="imageUploader"
+          endpoint="driveUploader"
           className="mt-6 bg-[#6c47ff] text-white rounded-full font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 cursor-pointer transition-colors hover:bg-[#5533d6]"
           onClientUploadComplete={() => {
             navigate.refresh();

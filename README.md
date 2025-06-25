@@ -25,3 +25,4 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - file uploading with uploadthing
 - ownership to files, only can upload to folders you own
 - uploads to right folder
+- Allow all file types
