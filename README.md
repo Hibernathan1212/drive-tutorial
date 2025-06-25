@@ -6,8 +6,8 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 
 ## TODO
 - [x] Folder filtering
-- [ ] Make folders onclick work
-- [ ] breadcrumbs
+- [x] Make folders onclick work
+- [x] breadcrumbs
 - [ ] homepage
 
 - [ ] Auth
@@ -19,3 +19,4 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - Connected database to frontend with rendering
 - Added folder filtering with url routes
 - Added incomplete home page
+- Cleaned up database and data fetching patterns
