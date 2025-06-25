@@ -10,8 +10,9 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - [x] breadcrumbs
 - [ ] homepage
 
-- [ ] Auth
-- [ ] file uploading
+- [x] Auth
+- [x] file uploading
+- [ ] file control (deleting, renaming etc)
 - [ ] Analytics
 
 ## Features
@@ -20,3 +21,7 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - Added folder filtering with url routes
 - Added incomplete home page
 - Cleaned up database and data fetching patterns
+- Auth with Clerk (though stil development mode)
+- file uploading with uploadthing
+- ownership to files, only can upload to folders you own
+- uploads to right folder
