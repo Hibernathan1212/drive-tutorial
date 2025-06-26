@@ -35,3 +35,4 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - Allow all file types
 - connected posthog
 - reverse proxy for posthog to bypass ad blocking (netlify specific in netlify.toml file)
+- File sorting by id (when it was created)
