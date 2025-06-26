@@ -3,6 +3,13 @@ A personal drive following [Theo's Drive Tutorial](https://www.youtube.com/watch
 
 Learning proper backend and frontend conventions, auth, properly learning react, and more. 
 
+## Technologies
+- Framework: NextJS
+- Hosting: Netlify
+- Database: Singlestore w Drizzle
+- File storage: Uploadthing
+- Auth: Clerk
+- Analytics: Posthog
 
 ## TODO
 - [x] Folder filtering
@@ -13,7 +20,7 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - [x] Auth
 - [x] file uploading
 - [ ] file control (deleting, renaming etc)
-- [ ] Analytics
+- [x] Analytics
 
 ## Features
 - added databse
@@ -26,4 +33,5 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - ownership to files, only can upload to folders you own
 - uploads to right folder
 - Allow all file types
-- connected posthog (need to add reverse proxy)
+- connected posthog
+- reverse proxy for posthog to bypass ad blocking (netlify specific in netlify.toml file)
