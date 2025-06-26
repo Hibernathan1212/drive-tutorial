@@ -26,3 +26,4 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - ownership to files, only can upload to folders you own
 - uploads to right folder
 - Allow all file types
+- connected posthog (need to add reverse proxy)
