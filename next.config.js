@@ -15,24 +15,24 @@ const config = {
       ignoreBuildErrors: true,
   },
 
-  async rewrites() {
-    return [
-      {
-        source: "/relay-vC2c/static/:path*",
-        destination: "https://us-assets.i.posthog.com/static/:path*",
-      },
-      {
-        source: "/relay-vC2c/:path*",
-        destination: "https://us.i.posthog.com/:path*",
-      },
-      {
-        source: "/relay-vC2c/flags",
-        destination: "https://us.i.posthog.com/flags",
-      },
-    ];
-  },
-  // This is required to support PostHog trailing slash API requests
-  skipTrailingSlashRedirect: true, 
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: "/relay-vC2c/static/:path*",
+  //       destination: "https://us-assets.i.posthog.com/static/:path*",
+  //     },
+  //     {
+  //       source: "/relay-vC2c/:path*",
+  //       destination: "https://us.i.posthog.com/:path*",
+  //     },
+  //     {
+  //       source: "/relay-vC2c/flags",
+  //       destination: "https://us.i.posthog.com/flags",
+  //     },
+  //   ];
+  // },
+  // // This is required to support PostHog trailing slash API requests
+  // skipTrailingSlashRedirect: true, 
 };
 
 export default config;
