@@ -36,3 +36,10 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - connected posthog
 - reverse proxy for posthog to bypass ad blocking (netlify specific in netlify.toml file)
 - File sorting by id (when it was created)
+
+## Todo
+- add file types into frontend
+- make frontend nicer
+- deleting folders
+    - get all children, recursively for subfolders and all files then delete
+- add uploadthing file id to database
