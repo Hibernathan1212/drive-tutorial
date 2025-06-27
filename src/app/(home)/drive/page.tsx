@@ -1,7 +1,7 @@
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
-import { Button } from "~/components/ui/button";
 import { MUTATIONS, QUERIES } from "~/server/db/queries";
+import { CreateDriveButton } from "~/components/ui/create-drive-button";
 
 export default async function DrivePage() {
   const session = await auth();
@@ -27,7 +27,7 @@ export default async function DrivePage() {
 
         return redirect(`/f/${rootFolderId}`);
       }}>
-        <Button>Create Your Drive</Button>
+        <CreateDriveButton />
       </form>
     )
   }

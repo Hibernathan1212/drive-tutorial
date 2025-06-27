@@ -19,7 +19,7 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 
 - [x] Auth
 - [x] file uploading
-- [ ] file control (deleting, renaming etc)
+- [x] file deletion
 - [x] Analytics
 
 ## Features
@@ -36,10 +36,26 @@ Learning proper backend and frontend conventions, auth, properly learning react,
 - connected posthog
 - reverse proxy for posthog to bypass ad blocking (netlify specific in netlify.toml file)
 - File sorting by id (when it was created)
+- deleting files
+- onboarding with signing in and sign up pages
+- creates new drive if user doesn't already have on
+
 
 ## Todo
 - add file types into frontend
-- make frontend nicer
+- make ui nicer
+    - loading states
+    - toasts for file upload
+    - gray out files as theyre being deleted
+    - nicer onboarding
+    - nicer ui overall
 - deleting folders
     - get all children, recursively for subfolders and all files then delete
+- add folders
+    - make server action that takes name and parentId and ownerID and creates folder
+- renaming
+- access control
+    - do an additional check in /f/../page if you are owner of folder and if not redirect
+- file view page
+    - page that shows the file and renders, not just the url of the file but actual ui showing the file
 - add uploadthing file id to database
